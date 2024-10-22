@@ -1,0 +1,107 @@
+body
+ {
+        background: url(css/bg.png) ;
+        background-repeat: repeat;
+}
+
+
+.img_main {
+    width: 50px;
+    height: 50px;
+}
+
+.search{
+    width: 20px;
+}
+.text_main {    
+    color: rgb(189, 68, 38);
+    font-size: 150px;
+    padding-top: 15%;
+    font-family: 'RoundFit Lowercase Extended', arial;
+    padding-left: 20%;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    
+
+}
+.input_main{
+    margin-top: 1%;
+    margin-left: 19%;
+    border-color: gray;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    font-size: 30px;  
+    width: 60%;
+}
+::placeholder{
+    color: rgb(219, 224, 224);
+}
+
+form {
+    
+  }
+form input[type="text"] {
+    flex: 1;
+}
+
+.main_button {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 58px;
+    border-radius: 20px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.fr_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-top: 10%;
+  }
+.mic_main{
+    border-radius: 15px;
+    margin-bottom: 20px;
+    height: 70px;
+    width: 70px;
+}
+.set_main{
+    border-radius: 15px;
+    height: 70px;
+    width: 70px;   
+}
+
+.mic_main:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.set_main:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.main_button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.input_main:focus{
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    
+    text-shadow: #7BA7AB;
+}
+@font-face {
+    font-family: 'Vogue_Bold';
+    src: url('fonts/RoundfitLowercaseExtended.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
